@@ -1,0 +1,71 @@
+{
+  "license_key": "ShulkerV2-XXXX-XXXX-XXXX",
+  "threads_mode": "Auto",
+  "threads": 50,
+  "features": {
+    "hypixel_check": true,
+    "donut_check": true,
+    "ban_check": true,
+    "xbox_perks": true,
+    "ms_rewards": true,
+    "ms_balance": true,
+    "auto_mark_lost": true,
+    "retry_rate_limited": true,
+    "retry_delay_seconds": 10,
+    "retry_prompt_timeout_sec": 2,
+    "set_name": false,
+    "set_skin": false,
+    "skin_img": "https://s.namemc.com/i/61025d58f5bd6241.png",
+    "inbox_checker": false,
+    "inbox_keywords": [
+      "Steam",
+      "Netflix",
+      "PayPal",
+      "Roblox",
+      "Riot"
+    ],
+    "validate_sticky_proxies": true,
+    "naming": {
+      "prefix": "Sv2",
+      "suffix": "",
+      "separator": "_",
+      "use_words": true,
+      "words": 1,
+      "random_length": 3
+    }
+  },
+  "input_files": {
+    "combos": "combos.txt",
+    "proxies": "proxies.txt"
+  },
+  "logs_display": {
+    "show_invalid": true,
+    "show_valid": true,
+    "show_hits": true,
+    "show_locked": true
+  },
+  "output_settings": {
+    "create_results_folder": true,
+    "save_by_category": true
+  },
+  "web_stats": {
+    "enabled": true
+  },
+  "cloud_sync": {
+    "enabled": true
+  },
+  "sniper": {
+    "enabled": true
+  },
+  "donut_auto_pay": {
+    "enabled": false,
+    "target_player": "Your_MC_Username_here"
+  },
+  "auto_run": {
+    "enabled": false,
+    "PROXY_TYPE [HTTP(1) / SOCKS4(2) / SOCKS5(3)]": "1",
+    "PROXY_MODE [Sticky(1) / Rotating(2)]": "1",
+    "DISPLAY_MODE [Logs(1) / CUI(2)]": "1",
+    "THREADS [number, 0 = auto]": 0
+  }
+}

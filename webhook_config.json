@@ -1,0 +1,31 @@
+{
+  "bot_name": "Shulker V2",
+  "mc_hits": {
+    "default_webhook": "",
+    "hypixel_unbanned_webhook": "",
+    "hypixel_banned_webhook": "",
+    "donut_unbanned_webhook": "",
+    "donut_banned_webhook": "",
+    "xbox_hits_webhook": "",
+    "embed_customization": {
+      "include_email": true,
+      "include_password": true,
+      "include_hypixel": true,
+      "include_hypixel_stats": true,
+      "include_donut": true,
+      "include_donut_stats": true,
+      "include_type": true,
+      "include_combo": true,
+      "attach_mc_token": false
+    }
+  },
+  "nitro_promo": {
+    "webhook": ""
+  },
+  "xbox_codes": {
+    "webhook": ""
+  },
+  "rate_limiting": {
+    "delay_between_requests_ms": 2000
+  }
+}
